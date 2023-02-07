@@ -28,7 +28,7 @@ jobs:
         docker build -t estsban1102/docker-graphql:0.0.2 .
     - name: push docker image
       run: |
-        docker push estsban1102/docker-graphql:0.0.2 .
+        docker push estsban1102/docker-graphql:0.0.2
         
   #  - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
